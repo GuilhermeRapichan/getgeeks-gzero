@@ -60,7 +60,7 @@ Password Is Obrigatory
     Submit Credentials
     Alert Span Should Be  Senha obrigatória
 
-All Fields is Obrigatory
+All Fields Is Obrigatory
 
     @{List_Message}         Create List
     ...                     E-mail obrigatório
