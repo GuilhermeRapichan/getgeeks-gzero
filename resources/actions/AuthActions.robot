@@ -33,4 +33,9 @@ User Should Be Logged In
 
 Should Be Type Email
 
-    GET PROPERTY       css=input[type="email"][id="email"]     type        equal       email        
+    GET PROPERTY       css=input[type="email"][id="email"]     type        equal       email
+
+Fill Only Field        
+    [Arguments]     ${field}        ${pass}
+
+    Fill Text       ${field}    ${pass}        

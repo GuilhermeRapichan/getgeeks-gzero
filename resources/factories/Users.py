@@ -30,6 +30,6 @@ def factory_user_login():
         'name' : 'Guilherme',
         'lastname': 'Rapichan',
         'email': 'guirapichan@gmail.com',
-        'password': 'rapichan13',
-        'hashpass': '$2b$08$b.yQtsOfX9h5pnrWK6oaAu2NnAng3cp1e98pS3k4imki7lx5G5wum'
+        'password': 'pwd123',
+        'hashpass': '$2b$08$nS8kvrMc6hmtjcpfeVOj.eP0.jK4rCBMqwl5z9LJOxkGiAGHsGpxa'
     }    
