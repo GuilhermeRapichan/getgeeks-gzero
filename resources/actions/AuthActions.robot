@@ -28,7 +28,7 @@ User Should Be Logged In
     ${fullname}     Set Variable        ${user}[name] ${user}[lastname]
     ${css_profile}      Set Variable        css=a[href="/profile"]
 
-    Wait For Elements State         ${css_profile}      visible     5
+    Wait For Elements State         ${css_profile}      visible     10
     Get Text                        ${css_profile}      equal       ${fullname}     
 
 Should Be Type Email
